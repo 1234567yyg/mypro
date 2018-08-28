@@ -1,0 +1,26 @@
+/*公司公用的css*/
+body{font-family: "微软雅黑";}
+*{margin: 0 ;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{border: none;}
+em{font-style: normal;}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+/*公用样式*/
+.rel{
+	position: relative;
+}
+.abs{
+	position: absolute;
+}
+.f20{
+	font-size: 20px;
+}
+.f21{
+	font-size: 21px;
+}
+.clear{
+	clear: both;
+}

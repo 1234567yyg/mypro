@@ -1,0 +1,291 @@
+#top{
+	height: 80px;
+	border-bottom: 1px solid #aaa;
+	
+}
+#top .wrap{
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+#top .wrap>img{
+	position: absolute;
+	bottom: 0;
+}
+#top .wrap>.logon{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #BBBBBB;
+}
+#top .wrap>.logon>a{
+	color: blue;
+	font-weight: bold;
+	margin-left: 10px;
+}
+#middle{
+	height: 680px;
+	background: url(../img/register_bg.png);
+	position: relative;
+}
+#middle>.registeredBox{
+	width: 820px;
+	height: 520px;
+	padding: 19px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 50%;
+	margin-top: -280px;
+	left: 50%;
+	margin-left: -430px;
+	background: white;
+}
+#middle>p{
+	position: absolute;
+	opacity: .5;
+    background: #ccc;
+}
+#middle>.opacity1{
+	width: 880px;
+	height: 10px;
+	top: 50px;
+	left: 50%;
+	margin-left: -440px;
+}
+#middle>.opacity2{
+	width: 10px;
+	height: 560px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-left: 435px;
+	top: 60px;
+}
+#middle>.opacity3{
+	width: 880px;
+	height: 10px;
+	top: 620px;
+	left: 50%;
+	margin-left: -440px;
+}
+#middle>.opacity4{
+	width: 10px;
+	height: 560px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-left: -435px;
+	top: 60px;
+}
+#middle>.registeredBox>.phone_reg{
+	width: 600px;
+	height: 520px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+#middle>.registeredBox>.phone_reg>.head{
+	width: 580px;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+#middle>.registeredBox>.phone_reg>.head>h3{
+	width: 290px;
+	height: 40px;
+	text-align: center;
+}
+#middle>.registeredBox>.phone_reg>.head>h3>a{
+	font-size: 18px;
+	color: #999;
+}
+#middle>.registeredBox>.phone_reg>.reg_con{
+	width: 400px;
+	height: 209px;
+	
+	padding: 50px 80px 0 100px
+}
+#middle>.registeredBox>.phone_reg>.reg_con>.num>dt{
+	font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    width: 88px;
+    padding: 16px 0 16px 20px;
+    float: left;
+}
+.phone_reg>.reg_con>.num{
+	background-color: #FFF;
+    width: 398px;
+    height: 52px;
+    margin-top: -1px;
+    border: solid 1px #E6E6E6;
+    position: relative;
+    z-index: 1;
+}
+#middle>.registeredBox>.phone_reg>.reg_con>.num>dd{
+	height: 28px;
+    float: left;
+    padding: 12px 0;
+    position: relative;
+}
+#middle>.registeredBox>.phone_reg>.reg_con>.num>dd>div{
+	position: absolute;	
+	text-align: center;
+	right: -63px ;
+	top: 14px;
+	background: #FFF5D9;
+	display: none;
+}
+.phone_reg>.reg_con>.num>dd p{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #FF500B;
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+	
+}
+.phone_reg>.reg_con>.num>dd>input{
+	font-family: "microsoft yahei";
+    font-size: 14px;
+    line-height: 28px;
+    width: 290px;
+    height: 28px;
+    padding: 0;
+    border: none 0;
+    outline: none;
+}
+.phone_reg>.reg_con>.verify{
+	width: 277px;
+    float: left;
+    background-color: #FFF;
+    height: 52px;
+    margin-top: -1px;
+    border: solid 1px #E6E6E6;
+    position: relative;
+    z-index: 1;
+    
+}
+.phone_reg>.reg_con>.verify>dt{
+	font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    width: 88px;
+    padding: 16px 0 16px 20px;
+    float: left;
+}
+.phone_reg>.reg_con>.verify>dd{
+	height: 28px;
+    float: left;
+    padding: 12px 0;
+    position: relative;
+}
+.phone_reg>.reg_con>.verify>dd>p{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #FF500B;
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+	text-align: center;
+	top:16px;
+	right: -67px;
+	display: none;
+}
+.phone_reg>.reg_con>.verify>dd>input{
+	font-family: "microsoft yahei";
+    font-size: 14px;
+    line-height: 28px;
+    height: 28px;
+    padding: 0;
+    border: none ;
+    outline: none;
+    width: 100px !important;
+}
+.phone_reg>.reg_con>span{
+	width: 120px;
+    height: 52px;
+    float: left;
+    margin: -1px 0 0 -1px;
+    border: solid 1px #E6E6E6;
+    position: relative;
+    z-index: 1;
+}
+.phone_reg>.reg_con>span>img{ 
+	width: 120px;
+    height: 52px;
+    
+}
+.protocol{
+	width: 400px;
+	height: 30px;
+	margin-top: 70px;
+	overflow: hidden;
+	line-height: 30px;
+	color: #666;
+}
+.protocol>input{
+	
+	vertical-align: middle;
+}
+.protocol>a{
+	color: blue;
+}
+.reg_con>input[type="button"]{
+	font-family: "microsoft yahei";
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #FF500B;
+    width: 398px;
+    height: 42px;
+    border: solid 1px #F15C18;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+.afterRegist{
+	width: 199px;
+    height: 500px;
+    float: right;
+    padding: 20px 0 0 19px;
+    border-left: solid 1px #E6E6E6;
+}
+.afterRegist>h4{
+	font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.afterRegist>ul>li{
+	color: #999;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+.afterRegist>ul>li>i{
+	display: inline-block;
+	width: 30px;
+	height: 24px;
+	vertical-align: middle;
+	background: url(../img/login_pic.png) no-repeat;
+}
+.afterRegist>ul>li>.img1{
+	background-position: 0 -76px;
+}
+.afterRegist>ul>li>.img2{
+	background-position: -29px -76px;
+}
+
+.afterRegist>ul>li>.img3{
+	background-position: -59px -76px;
+}
+.afterRegist>ul>li>.img4{
+	background-position: -120px -76px;
+}
+.afterRegist>ul>li>.img5{
+	background-position: -150px -76px;
+}
+.afterRegist>ul>li>span{
+	font-size: 12px;
+}

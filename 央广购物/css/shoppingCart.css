@@ -1,0 +1,333 @@
+#header{
+	height: 39px;
+	background: #f6f6f6;
+	border-bottom: solid 1px #E5E5E5;
+	color: #777;
+	font-size: 12px;
+	position: relative;
+	z-index: 9999;
+}
+#header .wrap{
+	height: 39px;
+	width: 1200px;
+	margin: 0 auto;
+}
+#header .wrap>ul{
+	width: 529px;
+	height: 39px;
+	line-height: ;
+	float: right;
+	text-align: center;
+}
+#header .wrap>ul>p{
+	float: left;
+	height: 20px;
+	margin-top: 9px;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+#header .wrap>ul>li{
+	float: left;
+	height: 20px;
+	width: 78px;
+	margin-top: 9px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+}
+#header .wrap>ul>li>ul{
+	height: 20px;
+	width: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+#header .wrap>ul>li>ul>li{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#header .wrap>ul>li>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/on2.png);
+	vertical-align: middle;
+	margin-right: 5px;
+}
+#header .wrap>ul>li>span{
+	cursor: pointer;
+}
+#tittle{
+	height: 101px;
+	border-bottom: 1px solid #F15C18;
+	overflow: hidden;
+}
+#tittle .wrap{
+	width: 1200px;
+	height: 96px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#tittle .wrap>img{
+	margin-top: 20px;
+	float: left;
+}
+#tittle .wrap>ul{
+	float: right;
+	overflow: hidden;
+}
+#tittle .wrap>ul>li{
+	float: left;
+	width: 160px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+}
+#tittle .wrap>ul>li>.line{
+	width: 160px;
+	height: 1px;
+	background: #333333;
+}
+#tittle .wrap>ul>li>.dot{
+	width: 10px;
+	height: 10px;
+	background: #333333;
+	border: 2px solid #999999;
+	border-radius: 50%;
+	position: absolute;
+	left: 74px;
+	top: 28px;
+}
+#tittle .wrap>ul>li>p{
+	margin-top: 10px;
+	font-size: 12px;
+}
+#tittle .wrap>ul>.cart>i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/nc_cart_pic.png)  no-repeat; no-repeat
+}
+#tittle .wrap>ul>.affirm>i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/nc_cart_pic.png) no-repeat -32px 0;
+}
+#tittle .wrap>ul>.create>i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/nc_cart_pic.png) no-repeat -60px 0;
+}
+#tittle .wrap>ul>.finish>i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/nc_cart_pic.png) no-repeat -90px 0;
+}
+#middle{
+	width: 1190px;
+	height: 50px;
+	padding: 15px 0;
+	margin: 0 auto;
+	clear: both;
+}
+#middle h3{
+	font-size: 30px;
+}
+#middle h3>div{
+	width: 300px;
+	height: 20px;
+	float: right;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+#middle h3>div>span{
+	float: left;
+}
+#middle h3>div>div{
+	float: left;
+}
+#middle h3>div>div{
+	width: 100px;
+	height: 10px;
+	border: 1px solid #A9A9A9;
+	float: left;
+	margin-top: 3px;
+	position: relative;
+}
+
+#middle h3>div>div>.mask{
+	float: left;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: red;
+
+}
+#middle h6{
+	color: #ccc;
+}
+#content{
+	width: 1190px;
+	height: 20px;
+    padding: 6px 0 14px 0;
+	margin: 0 auto;
+	background: #eee;
+}
+#content input{
+	float: left;
+	margin-top: 5px;
+}
+#content span{
+	float: left;
+	margin-right: 100px;
+}
+#content p{
+	float: left;
+}
+#content .pone{
+	margin-left: 300px;
+}
+#content .ptwo{
+	margin-left: 150px;
+}
+#content .pthree{
+	margin-left: 100px;
+}
+#content .pfour{
+	margin-left: 150px;
+}
+#checkAll{
+	width: 1190px;
+	height: 48px;
+	padding: 0 20px;
+	margin: 0 auto;
+	line-height: 48px;
+}
+table{
+	margin: 0 auto;
+	border: none;
+}
+table tr {
+	width: 1200px;
+	
+}
+table tr td{
+	width: 1190px;
+	position: relative;
+	border:1px solid #ddd;
+	border-right: none;
+	border-left: none;
+}
+table tr td img{
+	width: 80px;
+	height: 80px;
+}
+table tr td p{
+	display: inline-block;
+	width: 220px;
+	;
+	margin-top: 10px;
+	vertical-align: top;
+	margin-left: 30px;
+}
+table tr td input[type="checkbox"]{
+	margin-top: 10px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+table tr td input[type="button"]{
+	width: 30px;
+	height: 30px;
+	background: white;
+	border: 1px solid #ddd;
+	margin-left: -6px;
+	text-align: center;
+}
+table tr td input[type="text"]{
+	width: 50px;
+	height: 28px;
+	border: 1px solid #ddd;
+	margin-left: -6px;
+	text-align: center;
+}
+table tr td div{
+	display: inline-block;
+	margin-left: 203px;
+	vertical-align: top;
+	margin-top: 28px;
+}
+table tr td .unit_cost{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	margin-top: 31px;
+	margin-left: 111px;
+}
+table tr td .money{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 31px;
+	margin-left: 298px;
+}
+table tr td .collect{
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background: url(../img/star-on.png) no-repeat;
+	right: 70px;
+	bottom: 8px;
+}
+table tr td .del{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../img/toolbar_bg.png) no-repeat -49px -269px;
+	right: 28px;
+	bottom:-5px;
+}
+#clearing{
+	width: 1200px;
+	height: 56px;
+	margin: 0 auto;
+	background: #ddd;
+	line-height: 56px;
+	font-size: 12px;
+}
+#clearing>span{
+	margin-right: 20px;
+}
+#clearing>ul{
+	float: right;
+}
+#clearing>ul>li{
+	float: left;
+	margin-left: 20px;
+}
+#clearing>ul>li>h2{
+	display: inline-block;
+	color: #FF7300;
+	 font-weight: bold;
+}
+#clearing>ul>li>i{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+}
+#clearing>ul>li>h3{
+	display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 56px;
+    color: white;
+    font-size: 16px;
+    line-height: 56px;
+    font-weight: 600;;
+    background: #FF7300;
+}
